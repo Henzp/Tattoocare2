@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+
 
 @Component({
   selector: 'app-home',
@@ -6,7 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  formularioLogin: FormGroup;
 
   constructor() {}
+
+
 
 }
